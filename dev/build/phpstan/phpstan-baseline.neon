@@ -9541,12 +9541,6 @@ parameters:
 			path: ../../../htdocs/core/class/dolgraph.class.php
 
 		-
-			message: '#^Comparison operation "\>" between 0 and 0 is always false\.$#'
-			identifier: greater.alwaysFalse
-			count: 3
-			path: ../../../htdocs/core/class/dolgraph.class.php
-
-		-
 			message: '#^If condition is always false\.$#'
 			identifier: if.alwaysFalse
 			count: 2
@@ -9561,24 +9555,6 @@ parameters:
 		-
 			message: '#^Loose comparison using \=\= between ''line'' and ''horizontalBar'' will always evaluate to false\.$#'
 			identifier: equal.alwaysFalse
-			count: 1
-			path: ../../../htdocs/core/class/dolgraph.class.php
-
-		-
-			message: '#^Loose comparison using \=\= between 0 and 0 will always evaluate to true\.$#'
-			identifier: equal.alwaysTrue
-			count: 2
-			path: ../../../htdocs/core/class/dolgraph.class.php
-
-		-
-			message: '#^Loose comparison using \=\= between 1 and 3 will always evaluate to false\.$#'
-			identifier: equal.alwaysFalse
-			count: 1
-			path: ../../../htdocs/core/class/dolgraph.class.php
-
-		-
-			message: '#^Offset 0 on array\{array\{stacknum\: int, legend\: mixed, legendwithgroup\: non\-falsy\-string\}\} in empty\(\) always exists and is not falsy\.$#'
-			identifier: empty.offset
 			count: 1
 			path: ../../../htdocs/core/class/dolgraph.class.php
 
@@ -14671,19 +14647,7 @@ parameters:
 			path: ../../../htdocs/core/tpl/card_presend.tpl.php
 
 		-
-			message: '#^Variable \$hidedesc might not be defined\.$#'
-			identifier: variable.undefined
-			count: 1
-			path: ../../../htdocs/core/tpl/card_presend.tpl.php
-
-		-
 			message: '#^Variable \$hidedetails might not be defined\.$#'
-			identifier: variable.undefined
-			count: 1
-			path: ../../../htdocs/core/tpl/card_presend.tpl.php
-
-		-
-			message: '#^Variable \$hideref might not be defined\.$#'
 			identifier: variable.undefined
 			count: 1
 			path: ../../../htdocs/core/tpl/card_presend.tpl.php
@@ -15445,12 +15409,6 @@ parameters:
 			path: ../../../htdocs/cron/list.php
 
 		-
-			message: '#^Variable \$texttoshow might not be defined\.$#'
-			identifier: variable.undefined
-			count: 1
-			path: ../../../htdocs/cron/list.php
-
-		-
 			message: '#^Offset ''css'' on array\{css\: ''minwidth200'', picto\: mixed\} in empty\(\) always exists and is not falsy\.$#'
 			identifier: empty.offset
 			count: 1
@@ -15507,12 +15465,6 @@ parameters:
 		-
 			message: '#^If condition is always false\.$#'
 			identifier: if.alwaysFalse
-			count: 1
-			path: ../../../htdocs/delivery/card.php
-
-		-
-			message: '#^Variable \$arrayoptions might not be defined\.$#'
-			identifier: variable.undefined
 			count: 1
 			path: ../../../htdocs/delivery/card.php
 
@@ -15787,40 +15739,10 @@ parameters:
 			path: ../../../htdocs/don/paiement/list.php
 
 		-
-			message: '#^Variable \$morecss might not be defined\.$#'
-			identifier: variable.undefined
-			count: 1
-			path: ../../../htdocs/don/paiement/list.php
-
-		-
-			message: '#^Variable \$morejs might not be defined\.$#'
-			identifier: variable.undefined
-			count: 1
-			path: ../../../htdocs/don/paiement/list.php
-
-		-
-			message: '#^Variable \$outputlangs might not be defined\.$#'
-			identifier: variable.undefined
-			count: 1
-			path: ../../../htdocs/don/payment/card.php
-
-		-
 			message: '#^Negated boolean expression is always true\.$#'
 			identifier: booleanNot.alwaysTrue
 			count: 1
 			path: ../../../htdocs/don/payment/payment.php
-
-		-
-			message: '#^Variable \$sumpaid might not be defined\.$#'
-			identifier: variable.undefined
-			count: 3
-			path: ../../../htdocs/don/payment/payment.php
-
-		-
-			message: '#^Variable \$objectlink might not be defined\.$#'
-			identifier: variable.undefined
-			count: 1
-			path: ../../../htdocs/don/tpl/linkedobjectblock.tpl.php
 
 		-
 			message: '#^Property EcmFiles\:\:\$acl \(string\) in isset\(\) is not nullable\.$#'
